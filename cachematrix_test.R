@@ -1,3 +1,6 @@
+#### Test file for cachematrix.R
+#### Uses three test matrices; a simple 2x2 of elements 1:4, 
+#### rnorm 
 source('cachematrix.R')
 
 cat("####\nSimple 2x2 matrix\n")
@@ -20,6 +23,8 @@ print(cacheSolve(m))
 
 ####
 cat("\n####\nRandom 2x2 matrix\n")
+cat("set.seed(44)\n")
+set.seed(44)
 cat("m$set(matrix(rnorm(4), 2, 2))\n")
 m$set(matrix(rnorm(4), 2, 2))
 

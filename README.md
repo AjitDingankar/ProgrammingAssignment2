@@ -1,3 +1,12 @@
+### Submission 
+
+Added cachematrix_test.R to test the functionality and performance 
+(the motivation for caching ;-) with three matrices: 2x2 with entries 
+1:4, and two with randomly generated (with normal distribution) entries; 
+one 2x2 another 16x16 to show performance advantage. 
+
+    source('cachematrix_test.R')
+
 ### Introduction
 
 This second programming assignment will require you to write an R
